@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src",
+    "paths": {
+      "@src/*": ["src/*"],
+      "@store/*": ["src/app-state/*"]
+    }
+  },
+  "exclude": ["node_modules", "build"]
+}
